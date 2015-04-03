@@ -4,3 +4,6 @@
 [submodule "vim-airline"]
 	path = vim-airline
 	url = https://github.com/bling/vim-airline.git
+[submodule "vim-monokai"]
+	path = vim-monokai
+	url = https://github.com/sickill/vim-monokai.git
