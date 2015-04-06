@@ -21,6 +21,7 @@ NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'flazz/vim-colorschemes'
+NeoBundle 'bling/vim-airline'
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
@@ -35,7 +36,6 @@ filetype plugin indent on
 " this will conveniently prompt you to install them.
 NeoBundleCheck
 "End NeoBundle Scripts-------------------------
-NeoBundle 'bling/vim-airline'
 set t_Co=256
 set laststatus=2
 set noshowmode
@@ -49,6 +49,5 @@ set mouse=a
 set clipboard=unnamed
 set backspace=2
 set ttymouse=xterm2
-set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 syntax enable
 colorscheme monokai
