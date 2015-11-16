@@ -30,4 +30,5 @@ install_cask_package gpgtools
 install_cask_package java
 install_cask_package knock
 install_cask_package stay
+install_cask_package textexpander
 [ ! -z $failed_items ] && echo The following items were failed to install: && echo $failed_items
