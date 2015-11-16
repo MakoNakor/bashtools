@@ -7,6 +7,7 @@ brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
 brew tap caskroom/cask
+brew tap caskroom/versions
 install_package bash-completion ''
 install_package brew-cask ''
 install_package coreutils ''
@@ -27,8 +28,10 @@ install_cask_package 1password
 install_cask_package alfred
 install_cask_package google-chrome
 install_cask_package gpgtools
+install_cask_package iterm2-nightly
 install_cask_package java
 install_cask_package knock
 install_cask_package stay
+install_cask_package sublime-text-dev
 install_cask_package textexpander
 [ ! -z $failed_items ] && echo The following items were failed to install: && echo $failed_items
