@@ -22,9 +22,11 @@ do
   echo '[ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.'
   echo '}'
 
+  echo '[ ! -z $failed_items ] && echo The following items were failed to install: && echo $failed_items'
+
   brew cask list | while read item;
   do
-	    echo "install_cask_package $item"
-    done
+    echo "install_cask_package $item"
+  done
 
   echo '[ ! -z $failed_items ] && echo The following items were failed to install: && echo $failed_items'
