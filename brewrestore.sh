@@ -35,6 +35,7 @@ install_cask_package iterm2-nightly
 install_cask_package java
 install_cask_package knock
 install_cask_package macdown
+install_cask_package soapui
 install_cask_package stay
 install_cask_package sublime-text-dev
 install_cask_package textexpander
