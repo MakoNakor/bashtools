@@ -29,6 +29,7 @@ install_cask_package adium-beta
 install_cask_package alfred
 install_cask_package google-chrome
 install_cask_package gpgtools
+install_cask_package intellij-idea-ce
 install_cask_package istat-menus
 install_cask_package iterm2-nightly
 install_cask_package java
