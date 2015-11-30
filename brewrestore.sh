@@ -12,12 +12,18 @@ install_package bash-completion ''
 install_package brew-cask ''
 install_package coreutils ''
 install_package corkscrew ''
+install_package ffmpeg ''
 install_package git ''
+install_package lame ''
 install_package libtool ''
+install_package libvo-aacenc ''
 install_package openssl ''
 install_package ssh-copy-id ''
 install_package vim ''
 install_package wget ''
+install_package x264 ''
+install_package xvid ''
+install_package youtube-dl ''
 function install_cask_package() {
 echo EXECUTING: brew cask install $1
 brew cask install $1
