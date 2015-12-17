@@ -34,6 +34,7 @@ brew cask install $1
 install_cask_package 1password
 install_cask_package adium-beta
 install_cask_package alfred
+install_cask_package caffeine
 install_cask_package google-chrome
 install_cask_package gpgtools
 install_cask_package intellij-idea-ce
