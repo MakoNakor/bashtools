@@ -1,13 +1,7 @@
 source ~/.profile
-if [ -f /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash ]; then
-	. /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash
-fi
-
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 	. $(brew --prefix)/etc/bash_completion
 fi
-
-source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
 
 MAGENTA="\[\033[0;35m\]"
 YELLOW="\[\033[0;33m\]"
