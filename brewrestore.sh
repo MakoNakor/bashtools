@@ -49,6 +49,7 @@ brew cask install $1
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
 [ ! -z $failed_items ] && echo The following items were failed to install: && echo $failed_items
+install_cask_package bartender
 install_cask_package caffeine
 install_cask_package google-chrome
 install_cask_package gpgtools
