@@ -13,3 +13,6 @@
 [submodule "nerd-fonts"]
 	path = nerd-fonts
 	url = https://github.com/ryanoasis/nerd-fonts.git
+[submodule "oh-my-fish"]
+	path = oh-my-fish
+	url = https://github.com/oh-my-fish/oh-my-fish
