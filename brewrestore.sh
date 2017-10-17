@@ -11,7 +11,6 @@ brew tap caskroom/drivers
 brew tap caskroom/versions
 brew tap homebrew/core
 brew tap homebrew/dupes
-install_package ant ''
 install_package bash-completion ''
 install_package coreutils ''
 install_package corkscrew ''
@@ -53,10 +52,13 @@ brew cask install $1
 install_cask_package caffeine
 install_cask_package google-chrome
 install_cask_package gpgtools
+install_cask_package istat-menus
 install_cask_package iterm2-nightly
 install_cask_package java
+install_cask_package java8
 install_cask_package jxplorer
 install_cask_package macdown
 install_cask_package p4merge
+install_cask_package sublime-text
 install_cask_package wireshark
 [ ! -z $failed_items ] && echo The following items were failed to install: && echo $failed_items
