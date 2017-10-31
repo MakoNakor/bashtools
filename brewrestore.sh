@@ -34,14 +34,17 @@ install_package pcre2 ''
 install_package perl ''
 install_package pkg-config ''
 install_package python ''
+install_package python3 ''
 install_package readline ''
 install_package ruby ''
 install_package sqlite ''
 install_package ssh-copy-id ''
+install_package thefuck ''
 install_package vim ''
 install_package wget ''
 install_package x264 ''
 install_package xvid ''
+install_package xz ''
 install_package youtube-dl ''
 function install_cask_package() {
 echo EXECUTING: brew cask install $1
@@ -59,6 +62,7 @@ install_cask_package java
 install_cask_package java8
 install_cask_package jxplorer
 install_cask_package macdown
+install_cask_package microsoft-teams
 install_cask_package p4merge
 install_cask_package sublime-text
 install_cask_package wireshark
