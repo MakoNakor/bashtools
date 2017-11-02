@@ -24,6 +24,7 @@ brew "icu4c"
 brew "libtool"
 brew "libvo-aacenc"
 brew "libyaml"
+brew "mas"
 brew "node"
 brew "openssl"
 brew "openssl@1.1"
@@ -51,3 +52,7 @@ cask "sublime-text"
 cask "wireshark"
 cask "caskroom/versions/iterm2-nightly"
 cask "caskroom/versions/java8"
+mas "GarageBand", id: 408980954
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Pages", id: 409201541
