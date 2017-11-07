@@ -24,6 +24,7 @@ brew "icu4c"
 brew "libtool"
 brew "libvo-aacenc"
 brew "libyaml"
+brew "mas"
 brew "node"
 brew "openssl"
 brew "openssl@1.1"
@@ -41,3 +42,27 @@ cask "bartender"
 cask "gpgtools"
 cask "macdown"
 cask "p4merge"
+mas "Aperture", id: 408981426
+mas "Authy Bluetooth", id: 668841348
+mas "Clean", id: 418412301
+mas "Cloud Printer", id: 463448876
+mas "GarageBand", id: 682658836
+mas "Growl", id: 467939042
+mas "iMovie", id: 408981434
+mas "iPhoto", id: 408981381
+mas "JPEGmini Lite", id: 525742250
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "Magnet", id: 441258766
+mas "Mint QuickView", id: 533491939
+mas "Noiseless", id: 969978718
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Palua", id: 431494195
+mas "PiPifier", id: 1160374471
+mas "Pixelmator", id: 407963104
+mas "Skitch", id: 425955336
+mas "Slink", id: 402358338
+mas "StuffIt Expander", id: 405580712
+mas "Twitter", id: 409789998
+mas "Xcode", id: 497799835
