@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set_proxy() {
+  read -p "User:" login
+  read -s -p "Password:" pass
+  export http_proxy="http://$login:$pass@pxUSlyn502.genworth.net:80"
+  export https_proxy=$http_proxy
+  export HTTP_PROXY=$http_proxy
+  export HTTPS_PROXY=$http_proxy
+}
