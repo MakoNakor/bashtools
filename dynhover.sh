@@ -1,14 +1,11 @@
 #!/bin/bash
 
 dt=$(date)
-#!/bin/bash
+echo $dt
 
 # find your DNS ID here: https://www.hover.com/api/domains/yourdomain.com/dns/
 # (replace "yourdomain.com" with your actual domain, and look for the record
 # you want to change. The ID looks like: dns1234567)
-UNAME=$USERNAME
-PWORD=$PASSWORD
-DOMAIN=$DOMAIN
 firstrun=0
 ipfile="${CONFIG_DIR}lastip"
 
