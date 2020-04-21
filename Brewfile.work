@@ -4,37 +4,30 @@ tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "homebrew/dupes"
+tap "jakehilborn/jakehilborn"
 brew "ant"
 brew "bash-completion"
+brew "pcre"
 brew "coreutils"
 brew "corkscrew"
 brew "cvs"
 brew "dos2unix"
+brew "icu4c"
 brew "lame"
 brew "x264"
 brew "xvid"
 brew "ffmpeg"
-brew "pcre2"
 brew "fish"
-brew "gdbm"
 brew "git"
-brew "go", args: ["without-cgo"]
-brew "pcre"
 brew "grep"
-brew "icu4c"
 brew "jq"
 brew "libtool"
 brew "libvo-aacenc"
 brew "libyaml"
 brew "mas"
 brew "node"
-brew "openssl"
-brew "openssl@1.1"
 brew "perl"
 brew "pkg-config"
-brew "readline"
-brew "sqlite"
 brew "python"
 brew "ruby"
 brew "ssh-copy-id"
@@ -44,10 +37,16 @@ brew "vim"
 brew "wget"
 brew "youtube-dl"
 brew "frizlab/perso/cvsps@2"
+brew "jakehilborn/jakehilborn/displayplacer"
 mas "1Password 7", id: 1333542190
+mas "24 Hour Wallpaper", id: 1226087575
 mas "GarageBand", id: 408980954
+mas "Honey", id: 1472777122
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "MailRaider Pro", id: 765096886
+mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Remote Desktop", id: 715768417
 mas "Pages", id: 409201541
+mas "Pixelmator", id: 407963104
+mas "The Unarchiver", id: 425424353
